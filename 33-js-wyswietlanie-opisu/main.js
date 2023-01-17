@@ -1,7 +1,7 @@
-let paragraph = document.getElementById('opis-id');
+let paragraph = document.getElementById('opis');
 
-let button = document.querySelector('button');
+let mybutton = document.querySelector('button');
 
-document.querySelector('button').onclick = function() {
+mybutton.onclick = function() {
 paragraph.textContent = 'Przykładowy tekst';
 }
